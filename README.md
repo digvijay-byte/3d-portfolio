@@ -1,3 +1,33 @@
+# Project Name
+
+A brief description of your project.
+
+---
+
+## Features
+- List key features of your project here.
+
+---
+
+## Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [Git](https://git-scm.com/)
+
+---
+
+## Steps to Set Up and Run the Project
+
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+
+
+
+
+
+
+
 Home page - ![image](https://github.com/user-attachments/assets/8454982e-9c07-4c6f-b082-13cb9f10b90b)
 
 
