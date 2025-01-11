@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="6000" height="3375" xmlns:bx="https://boxy-svg.com">
-  <ellipse style="stroke: rgb(0, 0, 0);" cx="-1729.5" cy="-3778" rx="1606.46" ry="1527.89"/>
-  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="-2759.8" y="-3577.1">Enter your text here</text>
-  <text style="fill: rgb(255, 255, 255); font-family: &quot;Architects Daughter&quot;; font-size: 1000px; font-weight: 700; letter-spacing: 20px; word-spacing: 100px; white-space: pre;" x="-2428" y="-3454.9">DJ</text>
-  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="4399.48" y="1259.71">Enter your text here</text>
-  <defs>
-    <style bx:fonts="Architects Daughter">@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
-  </defs>
-  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="2199.32" y="1713.71">Enter your text here</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Black Circle -->
+  <circle cx="100" cy="100" r="100" fill="black" />
+
+  <!-- White Text -->
+  <text x="50%" y="50%" fill="white" font-size="50" text-anchor="middle" dominant-baseline="middle" font-family="Arial">
+    DJ
+  </text>
 </svg>
