@@ -18,9 +18,23 @@ Make sure you have the following installed:
 
 ## Steps to Set Up and Run the Project
 
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
+Navigate to the project directory:
+
+
+
+cd <project-folder>
+Install dependencies:
+
+
+
+npm install
+Run the development server:
+
+
+
+npm run dev
+Open your browser and visit:
+http://localhost:3000
 
 
 
