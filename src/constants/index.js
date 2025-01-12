@@ -237,7 +237,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/digvijay-byte",
+    source_code_link: "https://github.com/digvijay-byte/Medi-Co",
   },
   {
     name: "Image colorization",
