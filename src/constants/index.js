@@ -170,30 +170,30 @@ const experiences = [
 ];
 
 const testimonials = [
-  // {
-  //   testimonial:
-  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //   name: "Sara Lee",
-  //   designation: "CFO",
-  //   company: "Acme Co",
-  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
-  // },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
-  // {
-  //   testimonial:
-  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
+ {
+    testimonial: "Connect with me on LinkedIn:",
+    name: "Digvijay Suryawanshi",
+    link: "https://www.linkedin.com/in/digvijay-suryawanshi-844576229/",
+    designation: "Full Stack Developer",
+    company: "Linkedin Profile",
+    image: "https://avatars.githubusercontent.com/u/84385232?s=400&u=fec29d7464e6f617ada80b167e4ea24387ab5a09&v=4",
+  },
+  {
+    testimonial: "Connect with me on X:",
+    name: "Digvijay-byte",
+    link: "https://x.com/digvijay_byte",
+    designation: "Full Stack Developer",
+    company: "Twitter/X",
+    image: "https://pbs.twimg.com/profile_images/1873946651368280064/Fqt6TyRW_400x400.jpg",
+  },
+  {
+    testimonial: "Connect with me on Github:",
+    name: "Digvijay-byte",
+    link: "https://github.com/digvijay-byte",
+    designation: "Full Stack Developer",
+    company: "Github",
+    image: "https://avatars.githubusercontent.com/u/84385232?s=400&u=fec29d7464e6f617ada80b167e4ea24387ab5a09&v=4",
+  },
 ];
 
 const projects = [
