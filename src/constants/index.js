@@ -211,7 +211,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Web-Sockets",
         color: "pink-text-gradient",
       },
     ],
@@ -228,11 +228,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Express",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "APIS",
         color: "pink-text-gradient",
       },
     ],
@@ -245,11 +245,11 @@ const projects = [
       "image colorization using ML algorithms , converts black and white images to colour image , high accuracy and precision ",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Neural Networks",
         color: "green-text-gradient",
       },
       {
