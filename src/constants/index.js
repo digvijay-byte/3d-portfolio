@@ -42,20 +42,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developement",
+    title: "Web Developer",
     icon: web,
+    link: "https://github.com/digvijay-byte",
   },
   {
-    title: " DSA ",
+    title: "React Developer",
     icon: mobile,
+    link: "https://github.com/digvijay-byte",
   },
   {
-    title: "Backend Developement",
+    title: "Backend Developer",
     icon: backend,
+    link: "https://github.com/digvijay-byte",
   },
   {
-    title: "Blog Writing",
+    title: "Content Creator",
     icon: creator,
+    link: "https://medium.com/@digvijaysuryawanshiwork",
   },
 ];
 
