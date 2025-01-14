@@ -7,35 +7,45 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon, link }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+const ServiceCard = ({ index, title, icon, link }) => {
+  const content = (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
-        options={{
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        style={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          <img
-            src={icon}
-            alt={title}
-            className='w-16 h-16 object-contain'
-          />
-        </a>
-
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <img
+          src={icon}
+          alt={title}
+          className="w-16 h-16 object-contain"
+        />
+        <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
       </div>
     </motion.div>
-  </Tilt>
-);
+  );
+
+  if (link) {
+    return (
+      <Tilt className="xs:w-[250px] w-full">
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          {content}
+        </a>
+      </Tilt>
+    );
+  }
+
+  return <Tilt className="xs:w-[250px] w-full">{content}</Tilt>;
+};
+
 
 
 const About = () => {
@@ -66,5 +76,5 @@ const About = () => {
   );
 };
 
-export 
+
 export default SectionWrapper(About, "about");
