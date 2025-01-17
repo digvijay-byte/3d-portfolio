@@ -52,12 +52,12 @@ const services = [
     link: "https://github.com/digvijay-byte",
   },
   {
-    title: "Backend Developer",
+    title: "DSA",
     icon: backend,
     link: "https://github.com/digvijay-byte",
   },
   {
-    title: "Content Creator",
+    title: "Blog Writing",
     icon: creator,
     link: "https://medium.com/@digvijaysuryawanshiwork",
   },
